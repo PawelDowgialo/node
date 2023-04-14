@@ -3,5 +3,6 @@ const divide = require("./divide")
 
 module.exports = {
     add: add,
-    divide: divide
+    divide: divide,
+    config: require("./config.json")
 }
